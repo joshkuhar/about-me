@@ -12,7 +12,7 @@ body {
 }
 
 .masthead {
-  padding: 6em 0;
+  padding: 1em;
   color: #456ABD;
   background-image: url('https://i.imgur.com/eIo9QVw.jpg');
   background-size: cover;
@@ -38,19 +38,14 @@ body {
   text-shadow: 0.01em 0.03em 0.01em #A67D69;
 }
 
-.intro-section,
-.location-section,
-.questions-section {
+.intro-section {
   max-width: 38em;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
   /*background-color: #ADAEC0;*/
 }
-.intro-section > p,
-.location-section > p,
-.content-footer > p, 
-.questions-section > p{
+.intro-section > p {
   /* Typography Declarations */
   font-weight: 300;
   letter-spacing: 0.05em;
@@ -62,18 +57,32 @@ body {
   /* Typography Declarations */
   font-family: "Gentium Book Basic", Georgia, serif;
   font-size: 1.2em;
-  font-weigt: bold;
-  color: #FCCA46;
+  font-weight: bold;
+  color: black;
   text-shadow: 0.9em 0.59em 05.9em #A67D69;
 }
 .social > li {
   display: inline-block;
   color: #FCCA46;
 }
-a {
-  font-wight: bold;
-  text-decoration: none;
-  color: #FCCA46
+
+#projects > a:link {
+  text-decoration: underline;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
 }
 .content-footer > p {
   color: #F2E0D0;
