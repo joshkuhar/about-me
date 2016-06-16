@@ -10,6 +10,9 @@ body {
 .content-footer {
   text-align: center;
 }
+#detailed-about {
+  display: none;
+}
 
 .masthead {
   padding: 1em;
